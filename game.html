@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Color Guessing Game!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="colorGameStyle.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="head">
+            <h3>
+                GUESS WHAT COLOR IS THIS
+            </h3>
+            <span id="colorDisplay"></span>
+        </div>
+
+        <div id="menu">
+            <button class="newColor">New Color</button>
+            <span class="message">Guess!</span>
+            <button class="mode">Easy</button>
+            <button class="mode selected">Hard</button>
+        </div>
+
+        <div id="scoreBoard">
+            <span>Score : <span class="score">0</span></span>
+            <span>Tries left : <span class="triesLeft">3</span></span>
+        </div>
+
+        <div id="squareBlock">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        <script src="colorGame.js"></script>
+    </body>
+</html>

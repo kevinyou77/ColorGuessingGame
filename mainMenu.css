@@ -1,0 +1,46 @@
+body {
+    background: #232323;
+    padding-top: 250px;
+    font-family: "Poppins", sans-serif;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
+#container{
+    text-align: center;
+    margin: 0 auto 20px auto;
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color:blue;
+}
+
+#menu {
+    margin-top: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: skyblue;
+    letter-spacing: 1.2px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#menu a:hover {
+    background: steelblue;
+    color: white;
+}
